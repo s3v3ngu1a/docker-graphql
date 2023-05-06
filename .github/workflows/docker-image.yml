@@ -32,4 +32,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push -t s3v3ngu1a/docker-graphql:0.0.2 .
+        docker push s3v3ngu1a/docker-graphql:0.0.2
